@@ -1,1 +1,22 @@
-{"bricks":{"go_router":{"path":"bricks/go_router"},"search_substring_text":{"path":"bricks/search_substring_text"}}}
+{
+    "bricks": {
+        "go_router": {
+            "path": "/Users/user/Desktop/Flutter_Project/project/ui_bricks/bricks/go_router"
+        },
+        "search_highlight_text": {
+            "path": "/Users/user/Desktop/Flutter_Project/project/ui_bricks/bricks/search_highlight_text"
+        },
+        "theme_selection": {
+            "path": "/Users/user/Desktop/Flutter_Project/project/ui_bricks/bricks/theme_selection"
+        },
+        "google_ads": {
+            "path": "/Users/user/Desktop/Flutter_Project/project/ui_bricks/bricks/google_ads"
+        },
+        "in_app_purchase": {
+            "path": "/Users/user/Desktop/Flutter_Project/project/ui_bricks/bricks/in_app_purchase"
+        },
+        "in_app_update": {
+            "path": "/Users/user/Desktop/Flutter_Project/project/ui_bricks/bricks/in_app_update"
+        }
+    }
+}

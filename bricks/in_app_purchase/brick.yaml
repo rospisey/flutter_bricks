@@ -1,4 +1,4 @@
-name: search_substring_text
+name: in_app_purchase
 description: A new brick created with the Mason CLI.
 
 # The following defines the version and build number for your brick.
@@ -21,8 +21,8 @@ environment:
 #  * an optional prompt phrase used when asking for the variable
 #  * a list of values (enums only)
 vars:
-  name:
-    type: string
-    description: Your name
-    default: Dash
-    prompt: What is your name?
+  # name:
+  #   type: string
+  #   description: Your name
+  #   default: Dash
+  #   prompt: What is your name?

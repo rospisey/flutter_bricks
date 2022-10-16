@@ -1,5 +1,13 @@
 bricks:
   go_router:
     path: bricks/go_router
-  search_substring_text:
-    path: bricks/search_substring_text
+  search_highlight_text:
+    path: bricks/search_highlight_text
+  theme_selection:
+    path: bricks/theme_selection
+  google_ads:
+    path: bricks/google_ads
+  in_app_purchase:
+    path: bricks/in_app_purchase
+  in_app_update:
+    path: bricks/in_app_update
