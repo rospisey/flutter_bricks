@@ -1,1 +1,5 @@
 bricks:
+  go_router:
+    path: bricks/go_router
+  search_substring_text:
+    path: bricks/search_substring_text
