@@ -23,11 +23,11 @@ environment:
 vars:
   name:
     type: string
-    description: Your name
+    description: Your mason name
     default: Dash
     prompt: What is your name?
   package_name:
     type: string
-    description: Your name
+    description: Your name package_name
     default: Dash
     prompt: What is your package name?
