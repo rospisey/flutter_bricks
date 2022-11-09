@@ -1,5 +1,6 @@
 name: search_highlight_text
-description: A new brick created with the Mason CLI.
+description: Search highlight text with flutter
+repository: https://github.com/rospisey/flutter_bricks/tree/master/bricks/search_highlight_text
 
 # The following defines the version and build number for your brick.
 # A version number is three numbers separated by dots, like 1.2.34
@@ -23,11 +24,11 @@ environment:
 vars:
   name:
     type: string
-    description: Your mason name
+    description: Your code name
     default: Dash
     prompt: What is your name?
   package_name:
     type: string
-    description: Your name package_name
+    description: Your package name
     default: Dash
     prompt: What is your package name?
