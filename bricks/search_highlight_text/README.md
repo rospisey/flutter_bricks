@@ -19,3 +19,12 @@ A few resources to get you started if this is your first brick template:
 [2]: https://github.com/felangel/mason/tree/master/packages/mason_cli#readme
 [3]: https://verygood.ventures/blog/code-generation-with-mason
 [4]: https://youtu.be/G4PTjA6tpTU
+
+## Add dependency:
+
+  ```java
+  search_highlight_text: ^1.0.0+2
+  hooks_riverpod: 1.0.4
+  rxdart: 0.27.3
+  equatable: 2.0.5
+  ```
