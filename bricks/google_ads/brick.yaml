@@ -1,5 +1,5 @@
 name: google_ads
-description: A new brick created with the Mason CLI.
+description: Google ads with flutter.
 repository: https://github.com/rospisey/flutter_bricks/tree/master/bricks/google_ads
 
 # The following defines the version and build number for your brick.

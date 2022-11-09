@@ -1,5 +1,5 @@
 name: go_router
-description: A new brick created with the Mason CLI.
+description: Go router with flutter.
 repository: https://github.com/rospisey/flutter_bricks/tree/master/bricks/go_router
 
 # The following defines the version and build number for your brick.
