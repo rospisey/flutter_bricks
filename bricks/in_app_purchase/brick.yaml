@@ -1,5 +1,6 @@
 name: in_app_purchase
 description: A new brick created with the Mason CLI.
+repository: https://github.com/rospisey/flutter_bricks/tree/master/bricks/in_app_purchase
 
 # The following defines the version and build number for your brick.
 # A version number is three numbers separated by dots, like 1.2.34
@@ -20,7 +21,7 @@ environment:
 #  * an optional list of default values (array only)
 #  * an optional prompt phrase used when asking for the variable
 #  * a list of values (enums only)
-vars:
+# vars:
   # name:
   #   type: string
   #   description: Your name
