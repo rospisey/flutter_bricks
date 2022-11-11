@@ -4,27 +4,27 @@ import 'package:equatable/equatable.dart';
 
 class MovieModel with EquatableMixin {
   int id;
-  String word;
-  String definition;
-  // String posterUrl;
-  // String plot;
-  // String actors;
-  // String director;
+  String title;
+  String year;
+  String posterUrl;
+  String plot;
+  String actors;
+  String director;
   
 
   MovieModel({
     required this.id,
-    required this.word,
-    required this.definition,
-    // required this.posterUrl,
-    // required this.plot,
-    // required this.actors,
-    // required this.director,
+    required this.title,
+    required this.year,
+    required this.posterUrl,
+    required this.plot,
+    required this.actors,
+    required this.director,
   });
 
   @override
   List<Object?> get props => [
-        // id,
+        id,
       ];
       
       
@@ -32,24 +32,24 @@ class MovieModel with EquatableMixin {
   Map<String, dynamic> toMap() {
     return {
       MovieModelFields.id: id,
-      MovieModelFields.word: word,
-      MovieModelFields.definition: definition,
-      // MovieModelFields.posterUrl: posterUrl,
-      // MovieModelFields.plot: plot,
-      // MovieModelFields.actors: actors,
-      // MovieModelFields.director: director,
+      MovieModelFields.title: title,
+      MovieModelFields.year: year,
+      MovieModelFields.posterUrl: posterUrl,
+      MovieModelFields.plot: plot,
+      MovieModelFields.actors: actors,
+      MovieModelFields.director: director,
     };
   }
 
   factory MovieModel.fromMap(Map<String, dynamic> map) {
     return MovieModel(
       id: map[MovieModelFields.id],
-      word: map[MovieModelFields.word],
-      definition: map[MovieModelFields.definition],
-      // posterUrl: map[MovieModelFields.posterUrl],
-      // plot: map[MovieModelFields.plot],
-      // actors: map[MovieModelFields.actors],
-      // director: map[MovieModelFields.director],
+      title: map[MovieModelFields.title],
+      year: map[MovieModelFields.year],
+      posterUrl: map[MovieModelFields.posterUrl],
+      plot: map[MovieModelFields.plot],
+      actors: map[MovieModelFields.actors],
+      director: map[MovieModelFields.director],
     );
   }
 
@@ -60,11 +60,11 @@ class MovieModel with EquatableMixin {
 
 abstract class MovieModelFields {
   static const id = 'id';
-  static const word = 'word';
-  static const definition = 'definition';
-  // static const posterUrl = 'posterUrl';
-  // static const plot = 'plot';
-  // static const actors = 'actors';
-  // static const director = 'director';
+  static const title = 'title';
+  static const year = 'year';
+  static const posterUrl = 'posterUrl';
+  static const plot = 'plot';
+  static const actors = 'actors';
+  static const director = 'director';
   
 }

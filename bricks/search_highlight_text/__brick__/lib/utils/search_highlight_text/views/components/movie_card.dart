@@ -13,7 +13,7 @@ class MovieCard extends StatelessWidget {
     return Card(
       child: ListTile(
         title: SearchHighlightText( // <-- Here we use the SearchHighlightText widget to highlight the search text (if any) in the movie title
-          movie.word,
+          movie.title,
         ),
         // subtitle: Text(movie.definition),
         // leading: SizedBox(
