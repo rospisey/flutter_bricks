@@ -5,7 +5,7 @@ repository: https://github.com/rospisey/flutter_bricks/tree/master/bricks/theme_
 # The following defines the version and build number for your brick.
 # A version number is three numbers separated by dots, like 1.2.34
 # followed by an optional build number (separated by a +).
-version: 0.1.3+3
+version: 0.1.4+4
 
 # The following defines the environment for the current brick.
 # It includes the version of mason that the brick requires.
@@ -22,13 +22,9 @@ environment:
 #  * an optional prompt phrase used when asking for the variable
 #  * a list of values (enums only)
 vars:
-  name:
+  project_name:
     type: string
-    description: Your name
-    default: Dash
-    prompt: What is your name?
-  package_name:
-    type: string
-    description: Your name
-    default: Dash
-    prompt: What is your package name?
+    description: Your project name
+    default: Don't use com.name
+    prompt: What is your project name?
+
