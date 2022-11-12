@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:{{project_name}}/utils/responsive_layout/responsive_flex.dart';
+import 'package:{{project_name}}/utils/responsive_layout/layout/responsive_flex.dart';
 
 
 void main() {
